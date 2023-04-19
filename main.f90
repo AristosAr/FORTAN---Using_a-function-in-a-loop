@@ -19,11 +19,8 @@ print*, "The result of the function f(x) is"
         y=A(i)
         call prnt(x,y)
         x=x+dx
-        !if (x > xmax) exit  DEN XRIAZETE GIATI VAZO MEXRI TO 41
 
     end do
-
-
 
 end program
 
